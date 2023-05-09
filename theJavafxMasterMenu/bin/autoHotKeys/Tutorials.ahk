@@ -1,0 +1,2 @@
+Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default --app-id=ookflpiopgpinpmggliacjbokjapdbmf --app-url=https://helpx.adobe.com/creative-cloud/tutorials-explore.html?guid=ec060c90-daef-4372-9841-3cad77b2768a&produ
+ExitApp

@@ -1,0 +1,2 @@
+Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default --app-id=pgjokpbmajkkkpdnbheecpjnccfheibh --app-url=https://www.wolframalpha.com/ --app-launch-source=4
+ExitApp
