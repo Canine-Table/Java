@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+
+<TabPane prefHeight="600.0" prefWidth="795.0" rotateGraphic="true" stylesheets="@application.css" tabClosingPolicy="UNAVAILABLE" tabMinHeight="32.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab id="microsoftOffice" closable="false" text=" Office 365 ">
+         <content>
+            <AnchorPane id="microsoftOfficeAnchor" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Button id="Microsoft_Word" fx:id="buttonOfficeWord" layoutX="29.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#F5BD1F" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Microsoft_Teams" fx:id="buttonOfficeTeams" layoutX="183.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#F5BD1F" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Microsoft_PowerPoint" fx:id="buttonOfficePowerPoint" layoutX="337.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#F5BD1F" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Microsoft_InfoPath" fx:id="buttonOfficeInfoPath" layoutX="491.0" layoutY="20.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#F5BD1F" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Microsoft_Access" fx:id="buttonOfficeAccess" layoutX="645.0" layoutY="19.0" mnemonicParsing="false" onAction="#Microsoft_InfoPath" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#F5BD1F" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Microsoft_OneDrive" fx:id="buttonOfficeOneDrive" layoutX="29.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#F5BD1F" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Microsoft_Excel" fx:id="buttonOfficeExcel" layoutX="183.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#F5BD1F" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Microsoft_PowerBI" fx:id="buttonOfficePowerBI" layoutX="337.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#F5BD1F" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Microsoft_OneNote" fx:id="buttonOfficeOneNote" layoutX="491.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#F5BD1F" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Microsoft_Sway" fx:id="buttonOfficeSway" layoutX="645.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#F5BD1F" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Microsoft_Publisher" fx:id="buttonOfficePublisher" layoutX="29.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#F5BD1F" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Microsoft_PowerApps" fx:id="buttonOfficePowerApps" layoutX="183.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#F5BD1F" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Microsoft_Outlook" fx:id="buttonOfficeOutlook" layoutX="337.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#F5BD1F" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Microsoft_Automate" fx:id="buttonOfficeAutomate" layoutX="491.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#F5BD1F" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Microsoft_Skype" fx:id="buttonOfficeSkype" layoutX="645.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#F5BD1F" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+               </children>
+            </AnchorPane>
+         </content></Tab>
+    <Tab id="textEditors" closable="false" text=" Text Editors ">
+         <content>
+            <AnchorPane id="textEditorsAnchor" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Button id="Editor_NotePad" fx:id="buttonEditorsNotePad" layoutX="29.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#98FB98" />
+                     </effect></Button>
+                  <Button id="Editor_SciTE" fx:id="buttonEditorsSciTE" layoutX="183.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#98FB98" />
+                     </effect></Button>
+                  <Button id="Editor_NotePadPP" fx:id="buttonEditorsNotePadPP" layoutX="337.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#98FB98" />
+                     </effect></Button>
+                  <Button id="Editor_CherryTree" fx:id="buttonEditorsCherryTree" layoutX="491.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#98FB98" />
+                     </effect></Button>
+                  <Button id="Editor_WordPad" fx:id="buttonEditorsWordPad" layoutX="645.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#98FB98" />
+                     </effect></Button>
+                  <Button id="Editor_AnkelPad" fx:id="buttonEditorsAnkelPad" layoutX="29.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#98FB98" />
+                     </effect></Button>
+                  <Button id="Editor_NotePad2" fx:id="buttonEditorsNotePad2" layoutX="183.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#98FB98" />
+                     </effect></Button>
+                  <Button id="Editor_HotKeyPad" fx:id="buttonEditorsHotkeyPad" layoutX="337.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#98FB98" />
+                     </effect></Button>
+                  <Button id="Editor_NotePad2Mod" fx:id="buttonEditorsNotePad2Mod" layoutX="491.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#98FB98" />
+                     </effect></Button>
+                  <Button id="Editor_BlackNotePad" fx:id="buttonEditorsBlackNotePad" layoutX="645.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#98FB98" />
+                     </effect></Button>
+                  <Button id="Editor_SublimeText" fx:id="buttonEditorsSublimeText" layoutX="29.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#98FB98" />
+                     </effect></Button>
+                  <Button id="Editor_StickyNotes" fx:id="buttonEditorsStickyNotes" layoutX="183.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#98FB98" />
+                     </effect></Button>
+                  <Button id="Editor_gVim" fx:id="buttongEditorsVim" layoutX="337.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#98FB98" />
+                     </effect></Button>
+                  <Button id="Editor_Adventure" fx:id="buttonEditorsAdventure" layoutX="491.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#98FB98" />
+                     </effect></Button>
+                  <Button id="Editor_Balabolka" fx:id="buttonEditorsBalabolka" layoutX="645.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#98FB98" />
+                     </effect></Button>
+               </children></AnchorPane>
+         </content></Tab>
+      <Tab id="jetBrains" closable="false" text=" Jet Brains ">
+         <content>
+            <AnchorPane id="jetBrainsAnchor" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Button id="JetBrains_CLion" fx:id="buttonBrainsCLion" layoutX="29.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#FFB6C1" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="JetBrains_DotCover" fx:id="buttonBrainsDotCover" layoutX="183.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#FFB6C1" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="JetBrains_IntelijIdea" fx:id="buttonBrainsIntelijIdea" layoutX="337.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#FFB6C1" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="JetBrains_DotMemory" fx:id="buttonBrainsDotMemory" layoutX="491.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#FFB6C1" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="JetBrains_Rider" fx:id="buttonBrainsRider" layoutX="645.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#FFB6C1" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="JetBrains_DotPeek" fx:id="buttonBrainsDotPeek" layoutX="29.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#FFB6C1" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="JetBrains_RubyMine" fx:id="buttonBrainsRubyMine" layoutX="183.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#FFB6C1" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="JetBrains_DotTrace" fx:id="buttonBrainsDotTrace" layoutX="337.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#FFB6C1" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="JetBrains_DataGrip" fx:id="buttonBrainsDataGrip" layoutX="491.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#FFB6C1" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="JetBrains_PhpStorm" fx:id="buttonBrainsPHPStorm" layoutX="645.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#FFB6C1" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="JetBrains_DataSpell" fx:id="buttonBrainsDataSpell" layoutX="29.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#FFB6C1" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="JetBrains_PyCharm" fx:id="buttonBrainsPyCharm" layoutX="183.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#FFB6C1" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="JetBrains_GoLand" fx:id="buttonBrainsGoLand" layoutX="337.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#FFB6C1" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="JetBrains_WebStorm" fx:id="buttonBrainsWebStorm" layoutX="491.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#FFB6C1" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="JetBrains_ToolBox" fx:id="buttonBrainsToolBox" layoutX="645.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#FFB6C1" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+               </children></AnchorPane>
+         </content>
+      </Tab>
+      <Tab id="visualStudios" closable="false" text=" Visual Studios ">
+         <content>
+            <AnchorPane id="visualStudiosAnchor" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Button id="VisualStudios_buttonCommandPrompt" fx:id="buttonVistualStudiosCommandPrompt" layoutX="29.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#DDA0DD" />
+                     </effect></Button>
+                  <Button id="VisualStudios_Notejs" fx:id="buttonVistualStudiosNotejs" layoutX="183.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#DDA0DD" />
+                     </effect></Button>
+                  <Button id="VisualStudios_Terminal" fx:id="buttonVistualStudiosTerminal" layoutX="337.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#DDA0DD" />
+                     </effect></Button>
+                  <Button id="VisualStudios_Blend" fx:id="buttonVistualStudiosBlend" layoutX="491.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#DDA0DD" />
+                     </effect></Button>
+                  <Button id="VisualStudios_PowerShell" fx:id="buttonVistualStudiosPowerShell" layoutX="645.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#DDA0DD" />
+                     </effect></Button>
+                  <Button id="VisualStudios_UnityHub" fx:id="buttonVistualStudiosUnityHub" layoutX="29.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#DDA0DD" />
+                     </effect></Button>
+                  <Button id="VisualStudios_PowerShellCore" fx:id="buttonVistualStudiosPowerShellCore" layoutX="183.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#DDA0DD" />
+                     </effect></Button>
+                  <Button id="VisualStudios_Cocos" fx:id="buttonVistualStudiosCocos" layoutX="337.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#DDA0DD" />
+                     </effect></Button>
+                  <Button id="VisualStudios_VisualStudios" fx:id="buttonVistualStudiosVisualStudios" layoutX="491.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#DDA0DD" />
+                     </effect></Button>
+                  <Button id="VisualStudios_EpicGamesLauncher" fx:id="buttonVistualStudiosEpicGamesLauncher" layoutX="645.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#DDA0DD" />
+                     </effect></Button>
+                  <Button id="VisualStudios_Code" fx:id="buttonVistualStudiosCode" layoutX="29.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#DDA0DD" />
+                     </effect></Button>
+                  <Button id="VisualStudios_IDLE" fx:id="buttonVistualStudiosIDLE" layoutX="183.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#DDA0DD" />
+                     </effect></Button>
+                  <Button id="VisualStudios_Python" fx:id="buttonVistualStudiosPython" layoutX="337.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#DDA0DD" />
+                     </effect></Button>
+                  <Button id="VisualStudios_BorneShellAgain" fx:id="buttonVistualStudiosBorneShellAgain" layoutX="491.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#DDA0DD" />
+                     </effect></Button>
+                  <Button id="VisualStudios_PowerShellISE" fx:id="buttonVistualStudiosPowerShellISE" layoutX="645.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#DDA0DD" />
+                     </effect></Button>
+               </children></AnchorPane>
+         </content>
+      </Tab>
+      <Tab id="searchEngines" closable="false" text=" Search Engines ">
+         <content>
+            <AnchorPane id="searchEnginesAnchor" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Button id="SearchEngines_Firefox" fx:id="buttonSearchFirefox" layoutX="29.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#B0C4DE" />
+                     </effect></Button>
+                  <Button id="SearchEngines_OperaGX" fx:id="buttonSearchOperaGX" layoutX="183.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#B0C4DE" />
+                     </effect></Button>
+                  <Button id="SearchEngines_MicrosoftEdge" fx:id="buttonSearchMicrosoftEdge" layoutX="337.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#B0C4DE" />
+                     </effect></Button>
+                  <Button id="SearchEngines_Maxthon" fx:id="buttonSearchMaxthon" layoutX="491.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#B0C4DE" />
+                     </effect></Button>
+                  <Button id="SearchEngines_GoogleChrome" fx:id="buttonSearchGoogleChrome" layoutX="645.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#B0C4DE" />
+                     </effect></Button>
+                  <Button id="SearchEngines_Tor" fx:id="buttonSearchTor" layoutX="29.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#B0C4DE" />
+                     </effect></Button>
+                  <Button id="SearchEngines_InternetExplorer" fx:id="buttonSearchInternetExplorer" layoutX="183.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#B0C4DE" />
+                     </effect></Button>
+                  <Button id="SearchEngines_AvastSecure" fx:id="buttonSearchAvastSecure" layoutX="337.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#B0C4DE" />
+                     </effect></Button>
+                  <Button id="SearchEngines_Vivaldi" fx:id="buttonSearchVivaldi" layoutX="491.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#B0C4DE" />
+                     </effect></Button>
+                  <Button id="SearchEngines_Brave" fx:id="buttonSearchBrave" layoutX="645.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" />
+                  <Button id="SearchEngines_Opera" fx:id="buttonSearchOpera" layoutX="29.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#B0C4DE" />
+                     </effect></Button>
+                  <Button id="SearchEngines_Bing" fx:id="buttonSearchBing" layoutX="183.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#B0C4DE" />
+                     </effect></Button>
+                  <Button id="SearchEngines_Yandex" fx:id="buttonSearchYandex" layoutX="337.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#B0C4DE" />
+                     </effect></Button>
+                  <Button id="SearchEngines_DuckDuckGo" fx:id="buttonSearchDuckDuckGo" layoutX="491.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#B0C4DE" />
+                     </effect></Button>
+                  <Button id="SearchEngines_LetMeGooglwThatForYou" fx:id="buttonSearchLetMeGooglwThatForYou" layoutX="645.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow choke="0.3" color="#B0C4DE" />
+                     </effect></Button>
+               </children></AnchorPane>
+         </content>
+      </Tab>
+      <Tab id="shortcutLinks" closable="false" text=" Shortcuts ">
+         <content>
+            <AnchorPane id="shortcutLinksAnchor" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ComboBox id="Shortcuts_Favorites" fx:id="comboFavorites" layoutX="244.0" layoutY="37.0" prefHeight="31.0" prefWidth="532.0" promptText="None" AnchorPane.bottomAnchor="491.8">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant>
+                                 <color>
+                                    <Color green="0.7490196228027344" blue="1.0" />
+                                 </color>
+                              </Light.Distant>
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></ComboBox>
+                  <Label layoutX="14.0" maxHeight="92.0" minHeight="92.0" prefHeight="92.0" prefWidth="220.0" text="Favorites:">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="77.0" maxHeight="92.0" minHeight="92.0" prefHeight="92.0" prefWidth="243.0" text="Algonquin:">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="410.0" maxHeight="92.0" minHeight="92.0" prefHeight="92.0" prefWidth="208.0" text="Archives:">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="328.0" maxHeight="92.0" minHeight="92.0" prefHeight="92.0" prefWidth="178.0" text="Editors:">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="246.0" maxHeight="92.0" minHeight="92.0" prefHeight="92.0" prefWidth="277.0" text="Convertions:">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="164.0" maxHeight="92.0" minHeight="92.0" prefHeight="92.0" prefWidth="186.0" text="Utilities:">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+                  <ComboBox id="Shortcuts_Algonquin" fx:id="comboAlgonquin" layoutX="267.0" layoutY="114.0" prefHeight="31.0" prefWidth="509.0" promptText="None">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant>
+                                 <color>
+                                    <Color green="0.7490196228027344" blue="1.0" />
+                                 </color>
+                              </Light.Distant>
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></ComboBox>
+                  <ComboBox id="Shortcuts_Utilities" fx:id="comboUtilities" layoutX="210.0" layoutY="200.0" prefHeight="31.0" prefWidth="565.0" promptText="None">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant>
+                                 <color>
+                                    <Color green="0.7490196228027344" blue="1.0" />
+                                 </color>
+                              </Light.Distant>
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></ComboBox>
+                  <ComboBox id="Shortcuts_Conversions" fx:id="comboConversions" layoutX="302.0" layoutY="282.0" prefHeight="31.0" prefWidth="473.0" promptText="None">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant>
+                                 <color>
+                                    <Color green="0.7490196228027344" blue="1.0" />
+                                 </color>
+                              </Light.Distant>
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+       				</ComboBox>
+                  <ComboBox id="Shortcuts_Editors" fx:id="comboEditors" layoutX="202.0" layoutY="365.0" prefHeight="31.0" prefWidth="573.0" promptText="None">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant>
+                                 <color>
+                                    <Color green="0.7490196228027344" blue="1.0" />
+                                 </color>
+                              </Light.Distant>
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></ComboBox>
+                  <ComboBox id="Shortcuts_Archives" fx:id="comboArchives" layoutX="232.0" layoutY="446.0" prefHeight="31.0" prefWidth="544.0" promptText="None">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant>
+                                 <color>
+                                    <Color green="0.7490196228027344" blue="1.0" />
+                                 </color>
+                              </Light.Distant>
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></ComboBox>
+                  <Button fx:id="comboEnter" layoutX="24.0" layoutY="511.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="761.0" text="Enter">
+                     <effect>
+                        <InnerShadow choke="0.5" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+               </children></AnchorPane>
+         </content>
+      </Tab>
+      <Tab id="adobeCreativeCloud" closable="false" text=" Adobe ">
+         <content>
+            <AnchorPane id="adobeCreativeCloudAnchor" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="checkAdobeEnter" layoutX="24.0" layoutY="511.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="761.0" text="Enter">
+                     <effect>
+                        <InnerShadow choke="0.2" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <CheckBox fx:id="checkAdobeCharacterAnimator" layoutX="38.0" layoutY="19.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Character Animator">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobeCreativeCloudExpress" layoutX="38.0" layoutY="79.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Creative Cloud Express">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobeCreativeCloud" layoutX="38.0" layoutY="139.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Creative Cloud">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobeTutorials" layoutX="38.0" layoutY="199.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Adobe Tutorials">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobeColor" layoutX="38.0" layoutY="259.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Color">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobeAero" layoutX="38.0" layoutY="319.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Aero">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobeBehance" layoutX="38.0" layoutY="381.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Behance">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobeExperienceLeagueCommunity" layoutX="38.0" layoutY="441.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Experience League C">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobeFonts" layoutX="281.0" layoutY="19.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Font">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobeFrameIo" layoutX="281.0" layoutY="79.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Frame.io">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobeFresco" layoutX="281.0" layoutY="139.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Fresco">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobeMediaEncoder" layoutX="281.0" layoutY="199.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Media Encoder">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobeLightroom" layoutX="281.0" layoutY="259.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Lightroom">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobeMixamilo" layoutX="281.0" layoutY="319.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Mixamilo">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobePhotoShopExpress" layoutX="281.0" layoutY="381.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="PhotoShop Express">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobePhotoShop" layoutX="281.0" layoutY="441.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="PhotoShop">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobePortfolio" layoutX="524.0" layoutY="19.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Portfolio">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobePremiereRush" layoutX="524.0" layoutY="79.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Premiere Rush">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobeStock" layoutX="524.0" layoutY="139.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Stock">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobeSubstance3D" layoutX="524.0" layoutY="199.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Substance 3D">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobeSubstance3DCommunity" layoutX="524.0" layoutY="259.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Substance 3D C">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobeSupportCommunity" layoutX="524.0" layoutY="319.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Support Community">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobeUPXDeveloperTools" layoutX="524.0" layoutY="381.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="UPX Developer Tools">
+                  </CheckBox>
+                  <CheckBox fx:id="checkAdobeBridge" layoutX="524.0" layoutY="441.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Bridge">
+                  </CheckBox>
+               </children></AnchorPane>
+         </content>
+      </Tab>
+      <Tab id="managementConsole" fx:id="$Management" closable="false" text=" Management ">
+         <content>
+            <AnchorPane id="managementConsoleAnchor" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <CheckBox fx:id="checkManagementAuthenticationManager" layoutX="38.0" layoutY="19.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Authentication Manager">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementDevModeRunas" layoutX="281.0" layoutY="19.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Dev Mode Runas">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementTrustedPlatformModule" layoutX="524.0" layoutY="19.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Trusted Platform Module">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementCertificatesThisPC" layoutX="38.0" layoutY="79.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Certificates This PC">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementDFSManagement" layoutX="281.0" layoutY="79.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="DFS Management">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementPrinterManagement" layoutX="524.0" layoutY="79.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Printer Management">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementCertificatesCurrentUser" layoutX="38.0" layoutY="139.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Certificates This User">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementEventViewer" layoutX="281.0" layoutY="139.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Event Viewer">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementPerformanceMonitor" layoutX="524.0" layoutY="139.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Performance Monitor">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementComponentServices" layoutX="38.0" layoutY="199.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Component Services">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementFailoverClusterManager" layoutX="281.0" layoutY="199.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Failover Cluster Manager">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementResultantSetofPolicy" layoutX="524.0" layoutY="199.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Resultant Set of Policy">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementComputerManagement" layoutX="38.0" layoutY="259.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Computer Management">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementFileServerResourceManager" layoutX="281.0" layoutY="259.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Server Resource Manager">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementSecurityPolicy" layoutX="524.0" layoutY="259.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Security Policy">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementDiskManagement" layoutX="38.0" layoutY="319.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Disk Management">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementGroupPolicyEditor" layoutX="281.0" layoutY="319.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Groups Policey Editor">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementServices" layoutX="524.0" layoutY="319.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Services">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementDeviceManager" layoutX="38.0" layoutY="379.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Device Manager">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementHyperVManager" layoutX="281.0" layoutY="379.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Hyper-V Manager">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementSharedFolders" layoutX="524.0" layoutY="379.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Shared Folders">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementDefenderFirewallAdvancedSecurity" layoutX="38.0" layoutY="439.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Defender Advanced">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementLocalUsersandGroups" layoutX="281.0" layoutY="440.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Local Users and Groups">
+                  </CheckBox>
+                  <CheckBox fx:id="checkManagementTaskScheduler" layoutX="524.0" layoutY="442.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Task Scheduler">
+                  </CheckBox>
+                  <Button fx:id="checkManagementEnter" layoutX="24.0" layoutY="511.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="761.0" text="Enter">
+                     <effect>
+                        <InnerShadow choke="0.5" />
+                     </effect></Button>
+               </children></AnchorPane>
+         </content>
+      </Tab>
+      <Tab id="controlPanel" closable="false" text=" Control Panel ">
+         <content>
+            <AnchorPane id="controlPanelAnchor" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <CheckBox fx:id="checkControlPanel" layoutX="38.0" layoutY="19.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Contol Panel">
+                  </CheckBox>
+                  <CheckBox fx:id="checkControlMailSetup" layoutX="410.0" layoutY="19.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Mail Setup">
+                  </CheckBox>
+                  <CheckBox fx:id="checkControlDisplaySettings" layoutX="38.0" layoutY="79.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Display Setting">
+                  </CheckBox>
+                  <CheckBox fx:id="checkControlMobilitySettings" layoutX="410.0" layoutY="79.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Mobility Settings">
+                  </CheckBox>
+                  <CheckBox fx:id="checkControlDateandTime" layoutX="38.0" layoutY="139.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Date and Time">
+                  </CheckBox>
+                  <CheckBox fx:id="checkControlProgramsandFeatures" layoutX="410.0" layoutY="139.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Programs and Features">
+                  </CheckBox>
+                  <CheckBox fx:id="checkControlFlashPlayerSettings" layoutX="38.0" layoutY="199.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Flash Player Settings">
+                  </CheckBox>
+                  <CheckBox fx:id="checkControlRegion" layoutX="410.0" layoutY="199.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Region">
+                  </CheckBox>
+                  <CheckBox fx:id="checkControlGameControllers" layoutX="38.0" layoutY="259.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Game Controllers">
+                  </CheckBox>
+                  <CheckBox fx:id="checkControlSystemProperties" layoutX="410.0" layoutY="259.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="System Properties">
+                  </CheckBox>
+                  <CheckBox fx:id="checkControlInternetProperties" layoutX="38.0" layoutY="319.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Internet Properties">
+                  </CheckBox>
+                  <CheckBox fx:id="checkControlSpeechProperties" layoutX="410.0" layoutY="319.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Speech Properties">
+                  </CheckBox>
+                  <CheckBox fx:id="checkControlLocationInformation" layoutX="38.0" layoutY="379.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Local Information">
+                  </CheckBox>
+                  <CheckBox fx:id="checkControlSecurityandMaintenance" layoutX="410.0" layoutY="379.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Secutiry and Maintenance">
+                  </CheckBox>
+                  <CheckBox fx:id="checkControlMouseProperties" layoutX="38.0" layoutY="439.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Mouse Properties">
+                  </CheckBox>
+                  <CheckBox fx:id="checkControlWindowsFeatures" layoutX="410.0" layoutY="439.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Windows Features">
+                  </CheckBox>
+                  <Button fx:id="checkControlEnter" layoutX="24.0" layoutY="511.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="761.0" text="Enter">
+                     <effect>
+                        <InnerShadow choke="0.4" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+               </children></AnchorPane>
+         </content>
+      </Tab>
+      <Tab id="eclipseIDE" closable="false" text=" Eclipse ">
+         <content>
+            <AnchorPane id="eclipseIDEAnchor" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Button id="Eclipse_CandCPPButton" fx:id="buttonEclipseCandCPP" layoutX="29.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#D2B48C" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Eclipse_RCPandRAP" fx:id="buttonEclipseRCPandRAP" layoutX="183.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#D2B48C" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Eclipse_EmbeddedCandCPPButton" fx:id="buttonEclipseEmbeddedCandCPP" layoutX="337.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#D2B48C" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Eclipse_JavaandDSL" fx:id="buttonEclipseJavaandDSL" layoutX="491.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#D2B48C" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Eclipse_ScientificComputing" fx:id="buttonEclipseScientificComputing" layoutX="645.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#D2B48C" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Eclipse_Java" fx:id="buttonEclipseJava" layoutX="29.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#D2B48C" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Eclipse_ModelingTools" fx:id="buttonEclipseModellingTools" layoutX="183.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#D2B48C" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Eclipse_JavaandtheWeb" fx:id="buttonEclipseJavaandtheWeb" layoutX="337.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#D2B48C" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Eclipse_Php" fx:id="buttonEclipsePhp" layoutX="491.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#D2B48C" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button id="Eclipse_Scout" fx:id="buttonEclipseScout" layoutX="645.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0">
+                     <effect>
+                        <InnerShadow choke="0.3" color="#D2B48C" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+               </children></AnchorPane>
+         </content>
+      </Tab>
+	  <Tab id="settingsTabPane" fx:id="$Settings" closable="false" text=" Settings ">
+         <content>
+            <AnchorPane id="settingsTabPaneAnchor" prefHeight="200.0" prefWidth="200.0">
+               <children>
+               </children>
+            </AnchorPane>
+         </content>
+      </Tab>
+   </tabs>
+</TabPane>
