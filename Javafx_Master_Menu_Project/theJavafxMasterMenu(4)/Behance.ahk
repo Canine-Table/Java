@@ -1,0 +1,2 @@
+Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default --app-id=kdlcfcicpdkbhboddkcedhmefikpbicf --app-url=https://www.behance.net/onboarding/adobe --app-launch-source=4
+ExitApp

@@ -1,0 +1,2 @@
+Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default --app-id=dfjdglfokknpnhoemecdmhapifleljbk --app-url=https://creativecloud.adobe.com/cc/photoshop --app-launch-source=4
+ExitApp

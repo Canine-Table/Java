@@ -1,0 +1,2 @@
+Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default --app-id=gngfcdklkgkapebpgaidjjjgmedjdnbj --app-url=https://www.orbit-computer-solutions.com/ --app-launch-source=4
+ExitApp

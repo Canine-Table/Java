@@ -1,0 +1,2 @@
+Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default --app-id=olahkgjjophelgonbplciggkppnkbofo --app-url=https://www.tutorialspoint.com/unix/index.htm --app-launch-source=4
+ExitApp

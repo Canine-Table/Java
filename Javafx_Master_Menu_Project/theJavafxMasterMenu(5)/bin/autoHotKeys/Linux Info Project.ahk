@@ -1,0 +1,2 @@
+Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default --app-id=keadlhhjadjjbjkpacedccgbfmbjkgia --app-url=http://www.linfo.org/ --app-launch-source=4
+ExitApp

@@ -1,0 +1,2 @@
+Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default --app-id=nbobcepaalfddemagliiffgbmbojljcb --app-url=https://fonts.adobe.com/fonts --app-launch-source=4
+ExitApp

@@ -1,0 +1,2 @@
+Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default --app-id=kehbknhkicphmjghfjhojodjbnhlogog --app-url=https://icons8.com/icons/ --app-launch-source=4
+ExitApp

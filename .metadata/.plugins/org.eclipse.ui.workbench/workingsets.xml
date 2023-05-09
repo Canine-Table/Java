@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1664945313816_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1664945313835_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1665371906095_4" label="JavaFX" name="JavaFX">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/XMLExamples" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/broCode" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/graphicalUserInterfaces" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/helloJavaFX/.classpath" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/helloJavaFX/.project" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/helloJavaFX/bin/application/EclipseTabClass.class" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/helloJavaFX/bin/application/HelloJavaFX.class" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/helloJavaFX/bin/application/JetBrainsTabClass.class" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/helloJavaFX/bin/application/LinksTabClass.class" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/helloJavaFX/bin/application/Office365TabClass.class" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/helloJavaFX/bin/application/SearchEngineClass.class" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/helloJavaFX/bin/application/TextEditorsTabClass.class" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/helloJavaFX/bin/application/TheMasterJavaFXMenu.class" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/helloJavaFX/bin/application/VisualStudiosTabClass.class" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/helloJavaFX/build" type="2"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/helloJavaFX/src" type="2"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/levelFive" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/levelFour" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/levelOne" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/levelThree" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/levelTwo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/sandBox" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/sceneBuilder" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TheMasterJavaMenu" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1664945314577_2" label="Window Working Set" name="Aggregate for window 1664945314577"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1664946480338_3" label="Window Working Set" name="Aggregate for window 1664946480338"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1665377175884_5" label="Window Working Set" name="Aggregate for window 1665377175884"/>
+<mruList name="JavaFX"/>
+</workingSetManager>

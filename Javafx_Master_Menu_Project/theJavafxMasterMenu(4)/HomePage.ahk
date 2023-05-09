@@ -1,0 +1,2 @@
+Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default --app-id=pknmalmfceihkoihjlkoffmkgnadnnbh --app-url=https://brightspace.algonquincollege.com/d2l/home --app-launch-source=4
+ExitApp

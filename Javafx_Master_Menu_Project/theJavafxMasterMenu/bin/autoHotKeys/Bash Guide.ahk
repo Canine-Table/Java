@@ -1,0 +1,2 @@
+Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default --app-id=mhajonfjfjabnjfejfommajigalkalkh --app-url=https://tldp.org/LDP/Bash-Beginners-Guide/html/index.html --app-launch-source=4
+ExitApp

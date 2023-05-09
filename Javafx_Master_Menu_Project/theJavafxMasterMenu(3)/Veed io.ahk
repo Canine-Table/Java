@@ -1,0 +1,2 @@
+Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default --app-id=lpgdefdkffgkapbgnnhlkcmpglmmmege --app-url=https://www.veed.io/tools/video-editor/gif-editor --app-launch-source=4
+ExitApp

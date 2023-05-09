@@ -1,0 +1,2 @@
+Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default --app-id=jpnmdejgljebpdighkebbjjbpfoakphf --app-url=http://linuxcommand.org/lc3_learning_the_shell.php --app-launch-source=4
+ExitApp

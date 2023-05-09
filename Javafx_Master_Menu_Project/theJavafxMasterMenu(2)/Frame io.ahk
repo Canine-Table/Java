@@ -1,0 +1,2 @@
+Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe"  --profile-directory=Default --app-id=ekmkpglhigmehmcpmmlhllaifkmjnlip --app-url=https://app.frame.io/?homescreen=1 --app-launch-source=4
+ExitApp
