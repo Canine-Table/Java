@@ -1,2 +1,0 @@
-Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe"  --profile-directory=Default --app-id=hchlbinpgfcbjninapbcpmmaegbdpcea --app-url=https://express.adobe.com/sp/ --app-launch-source=4
-ExitApp

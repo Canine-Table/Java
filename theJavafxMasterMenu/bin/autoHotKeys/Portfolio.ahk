@@ -1,2 +1,0 @@
-Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default --app-id=ngclkkcphcoedkbkbmjmpgnhjkemfedi --app-url=https://portfolio.adobe.com/creativecloud?mv=other&promoid=RBS7NQ2D&guid=fea9e812-e2eb-4ab6-9b48-90a1cad1ee63
-ExitApp

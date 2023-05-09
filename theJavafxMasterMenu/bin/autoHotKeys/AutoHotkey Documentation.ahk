@@ -1,2 +1,0 @@
-Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe"  --profile-directory=Default --app-id=njaoolejihjhiffokglcdcfbkikegeli --app-url=https://documentation.help/AutoHotKey-Functions/ --app-launch-source=4
-ExitApp

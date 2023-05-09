@@ -1,2 +1,0 @@
-Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default --app-id=najccdjhehgjcncbplkggjhhjbijmjfl --app-url=https://stock.adobe.com/de/search?k=&trackingid=JHDDWHRZ&mv=in-product&as_channel=adobe_apps&as_source=Creati
-ExitApp
