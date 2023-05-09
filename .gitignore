@@ -1,10 +1,10 @@
-**/.settings
-**/bin
+**/.settings/
+**/bin/
 **/desktop.ini
 **/*.cmd
 **/*.ps1
 **/*.bat
-**/.metadata
+**/.metadata/
 **/.project
 **/.classpath
 
