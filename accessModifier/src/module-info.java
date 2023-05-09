@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Table
- *
- */
-module accessModifier {
-}
