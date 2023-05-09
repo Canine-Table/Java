@@ -1,8 +1,0 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="javafx.scene.control.Alert$AlertType"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="javafx.scene.control.Alert$AlertType"/></lhs><lhs name\="javafx.scene.layout.CornerRadii"><rhs name\="javafx.scene.layout.CornerRadii"/></lhs><lhs name\="javafx.geometry.Insets"><rhs name\="javafx.geometry.Insets"/></lhs></history>
-content_assist_number_of_computers=13
-eclipse.preferences.version=1
-org.eclipse.jdt.ui.formatterprofiles.version=22
-spelling_locale_initialized=true
-typefilter_migrated_2=true
-useAnnotationsPrefPage=true
-useQuickDiffPrefPage=true
