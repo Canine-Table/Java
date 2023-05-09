@@ -1,0 +1,35 @@
+package javaSandboxOneLevelOne;
+
+public class Conditional_Case {
+
+	public static void main(String [] args) 
+	{
+		
+		String $Day = "Monday";		
+		switch($Day) 
+		{
+			case "Monday":
+				System.out.println("Today is "+$Day);
+					break;
+			case "Tuesday":
+				System.out.println("Today is "+$Day);
+					break;
+			case "Wednesday":
+				System.out.println("Today is "+$Day);
+					break;
+			case "Thursday":
+				System.out.println("Today is "+$Day);
+					break;
+			case "Friday":
+				System.out.println("Today is "+$Day);
+					break;
+			case "Saturday":
+				System.out.println("Today is "+$Day);
+					break;
+			case "Sunday":
+				System.out.println("Today is "+$Day);
+					break;
+			default: System.out.println($Day+" is not a real day of the week.");
+		}	
+	}
+}

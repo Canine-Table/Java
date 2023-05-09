@@ -1,0 +1,43 @@
+package javaSandboxOneLevelOne;
+
+import java.io.File;
+import java.io.IOException;
+
+/** @author Table **/
+
+public class FileClass 
+	{
+		public static void main(String[] args) throws IOException 
+			{
+				File $File = new File("src/javaSandboxOneLevelOne/File.txt");
+				String $Type = null;
+				if (!$File.exists())
+					{
+						System.out.println("\n\tThe file or directory "+$File+" does not exsist.");
+						System.out.println("\n\tCreating the file "+$File.getName()+".");
+						$File.createNewFile();
+					}
+				if ($File.isDirectory())
+					{
+						$Type = "Directories";
+					}
+				else if ($File.isFile())
+					{
+						$Type = "Files";
+					}
+
+				System.out.println("\n\t"+$Type+" Path Information\n\t----------------------");
+				System.out.println("\n\t"+$Type+" absolute path: ("+$File.getAbsolutePath()+")");
+				System.out.println("\t"+$Type+" relitive path: ("+$File.getPath()+")");
+				System.out.println("\tParent: ("+$File.getParent()+")");
+				System.out.println("\tName: ("+$File.getName()+")\n");
+				
+				System.out.println("\n\t"+$Type+" Attributes\n\t----------------");
+				System.out.println("\n\tHidden file = "+$File.isHidden());
+				System.out.println("\tWritable file = "+$File.canWrite());
+				System.out.println("\tReadable file = "+$File.canRead());
+				System.out.println("\tExecutable file = "+$File.canExecute()+"\n\n");
+				System.out.println("\n\t"+$Type+" HashCode\n\t--------------");
+				System.out.println("\tHashcode: "+$File.hashCode());
+			}
+	}

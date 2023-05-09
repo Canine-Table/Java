@@ -1,0 +1,29 @@
+package javaSandboxOneLevelOne;
+import java.util.ArrayList;
+public class ArrayListClass {
+	
+	public static void main(String [] args)
+		{
+			String[] $Vehicles = {"Chevrolet Bolt", "Audi A4", "Audi A5", "Mercedes-Benz C-Class", "Honda Civic","Volkswagen GTI", "Kia Rio","",""};
+			ArrayList<Integer> $Numbers = new ArrayList<Integer>();
+			$Numbers.add(0);
+			$Numbers.add(1);
+			$Numbers.add(2);
+			$Numbers.add(3);
+			$Numbers.add(4);
+			$Numbers.add(5);
+			$Numbers.add(6);
+			$Numbers.add(7);
+			$Numbers.add(8);
+			$Numbers.add(9);
+			$Numbers.remove(0);
+			$Numbers.set(0, 0);
+			for (int i=0; i<$Numbers.size();i++) 
+				{
+					System.out.println($Numbers.get(i));
+				}
+
+			ArrayList<String> $Garage = new ArrayList<String>();
+
+		}
+}

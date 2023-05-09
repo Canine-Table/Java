@@ -1,0 +1,15 @@
+package javaSandboxOneLevelOne;
+
+public class MethodsClass 
+	{
+		String $Name;
+		public static void Name(String $Name)
+			{
+				Name($Name);
+				System.out.println($Name);
+			}
+	public static void main(String [] args)
+		{
+			Name("Jphn");
+		}
+	}

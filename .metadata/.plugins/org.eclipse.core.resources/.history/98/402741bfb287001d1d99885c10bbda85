@@ -1,0 +1,40 @@
+package javaSandboxOneLevelOne;
+
+import java.io.File;
+
+/** @author Table **/
+
+public class FileClass 
+	{
+		public static void main(String[] args) 
+			{
+				File $File = new File("src/javaSandboxOneLevelOne/File.txt");
+				String $Type = null;
+				if ($File.exists())
+					{
+						if ($File.isDirectory())
+							{
+								$Type = "Directory";
+							}
+						else if ($File.isFile())
+							{
+								$Type = "File";
+							}
+						System.out.println("\n\tThis "+$Type+" absolute path: ("+$File.getAbsolutePath()+")");
+						System.out.println("\tHashcode: "+$File.hashCode());
+						System.out.println("\tName: "+$File.getName());
+						System.out.println("\tParent: "+$File.getParent());
+						System.out.println("\tHidden file: "+$File.isHidden());
+						System.out.println("\tWritable file: "+$File.canWrite());
+						System.out.println("\tReadable file: "+$File.canRead());
+						System.out.println("\tExecutable file: "+$File.canExecute());
+
+
+				
+					}
+				else			
+					{
+						System.out.println("\n\tThe file or directory "+$File+" does not exsist.");
+					}
+			}
+	}

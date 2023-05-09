@@ -1,0 +1,18 @@
+package javaSandboxOneLevelOne;
+
+import java.util.Scanner;
+
+/** @author Table **/
+
+public class ExceptionClass 
+	{
+		public static void main(String [] args)
+			{
+				Scanner $Input = new Scanner(System.in);
+				System.out.print("\n\tEnter any number you wish to divide: ");
+				int $X = $Input.nextInt();
+				System.out.print("\n\tEnter any number you wish to divide by: ");
+				int $Y = $Input.nextInt();
+				
+			}
+	}

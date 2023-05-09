@@ -1,0 +1,46 @@
+package javaSandboxOneLevelOne;
+import java.util.ArrayList;
+
+public class ForeachLoopClass 
+	{
+		public static void main(String [] args)
+		{
+			ArrayList<String> $Fish = new ArrayList<String>();
+				$Fish.add("Starfish");
+				$Fish.add("Oyster Toadfish");
+				$Fish.add("Black Drum");
+				$Fish.add("Lizardfish");
+				$Fish.add("Jumping Mullet");
+				$Fish.add("Silver Perch");
+				$Fish.add("Haddock");
+				$Fish.add("Knobbed Porgy");
+				$Fish.add("Sea Mullet");
+			for(String $i : $Fish)
+			{
+				switch( $i)
+					{
+						case 0: 
+							System.out.println("The first fish is a "+$Fish.get(0));
+						case 1:
+							System.out.println("The Second fish is a "+$Fish.get(1));
+						case 2:
+							System.out.println("The Third fish is a "+$Fish.get(2));
+						case 3: 
+							System.out.println("The Fourth fish is a "+$Fish.get(3));
+						case 4:
+							System.out.println("The Fifth fish is a "+$Fish.get(4));
+						case 5:
+							System.out.println("The Sixth fish is a "+$Fish.get(5));
+						case 6:
+							System.out.println("The Seventh fish is a "+$Fish.get(6));
+						case 7:
+							System.out.println("The Eighth fish is a "+$Fish.get(7));
+						case 8:
+							System.out.println("The Ninth fish is a "+$Fish.get(8));
+						case 9:
+							System.out.println("The Tenth fish is a "+$Fish.get(9));
+					}
+			}
+		}
+	}
+

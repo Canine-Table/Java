@@ -1,0 +1,13 @@
+package javaSandboxOneLevelOne;
+
+public class MethodsClass 
+	{
+		public void Name()
+			{
+				
+			}
+	public static void main(String [] args)
+		{
+			
+		}
+	}

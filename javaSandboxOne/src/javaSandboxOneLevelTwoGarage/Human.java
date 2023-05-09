@@ -1,0 +1,165 @@
+package javaSandboxOneLevelTwoGarage;
+
+public class Human extends Employee
+	{
+		String $Name = "Gaius Julius Caesar";
+		String $FirstName = "Caesar";
+		String $MiddleName = "Gaius";
+		String $LastName = "Julius";
+		String $Profession = "Politician";
+		String $JobTitle = "Executive Magistrate";
+		float $Height = 5.7f;
+		float $Weight = 143.48f;
+		float $Salary = 2036650.34f;
+		int $Age = 55;
+
+		Human()
+			{
+			}
+		Human(String _Name, boolean _Employee, boolean _Broke)
+			{
+				super(_Name, _Employee, _Broke);
+			}
+		public String toString()
+			{
+				return super.toString()+"\n\tJob Title: "+this.$JobTitle+"\n\tProfession: "+this.$Profession;
+			}
+		Human(String _Name)
+			{
+				this.$Name = _Name;
+			}
+		Human(String _First, String _Middle, String _Last)
+		{
+			this.$FirstName = _First;
+			this.$MiddleName = _Middle;
+			this.$LastName = _Last;
+		}		
+
+		Human(String Name, String _First, String _Middle, String _Last)
+		{
+			this.$Name = _First;
+			this.$FirstName = _First;
+			this.$MiddleName = _Middle;
+			this.$LastName = _Last;
+		}
+
+		Human(String _Name, String _First, String _Middle, String _Last, String _Profession, String _JobTitle, int _Age, float _Height, float _Weight, float _Salary)
+			{
+				this.$Name = _Name;
+				this.$FirstName = _First;
+				this.$MiddleName = _Middle;
+				this.$LastName = _Last;
+				this.$Profession = _Profession;
+				this.$JobTitle = _JobTitle;
+				this.$Height = _Height;
+				this.$Weight = _Weight;
+				this.$Salary = _Salary;
+				this.$Age = _Age;
+			}
+	
+		public String getName()
+			{
+				return $Name;
+			}		
+				public void setName(String _Name)
+					{
+						this.$Name = _Name;
+					}
+	
+		public String getFirst()
+			{
+				return $FirstName;
+			}	
+				public void setFirst(String _First)
+					{
+						this.$FirstName = _First;
+					}	
+				
+		public String getMiddle()
+			{
+				return $MiddleName;
+			}
+				public void setMiddle( String _Middle)
+					{
+						this.$MiddleName = _Middle;
+					}
+						
+		public String getLast()
+			{
+				return $LastName;
+			}
+				public void setLast(String _LastName)
+					{
+						this.$LastName = _LastName;
+					}
+		
+		public String getProfession()
+			{
+				return $Profession;
+			}
+				public void setProfession(String _Profession)
+					{
+						this.$Profession = _Profession;
+					}
+			
+		public String getJob()
+			{
+				return $JobTitle;
+			}
+				public void getJob(String _Job)
+					{
+						this.$JobTitle = _Job;
+					}
+			
+		public int getAge()
+			{
+				return $Age;
+			}	
+				public void setAge(int _Age)
+					{
+						this.$Age = _Age;
+					}	
+	
+		public float getHeight()
+			{
+				return $Height;
+			}	
+				public void setHeight(float _Height)
+					{
+						this.$Height = _Height;
+					}
+					
+		public float getWeight()
+			{
+				return $Weight;
+			}	
+				public void getHeight(float _Weight)
+					{
+						this.$Weight = _Weight;
+					}	
+	
+		public float getSalary()
+			{
+				return $Salary;
+			}
+				public void setSalary(float _Salary)
+					{
+						this.$Salary = _Salary;
+					}
+		void Walking()
+			{
+				System.out.println($Name+" is taking a stroll.");
+			}
+		void Running()
+			{
+				System.out.println($Name+" is running.");
+			}	
+		void Sleeping()
+			{
+				System.out.println($Name+" is currently asleep.");
+			}
+		void Eating()
+			{
+				System.out.println($Name+" is eating food.");
+			}
+	}

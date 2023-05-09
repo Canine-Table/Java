@@ -1,0 +1,22 @@
+package javaSandboxOneLevelOne;
+
+public class ConstructorClass {
+
+	public class Human
+		{
+			String $Name = null;
+			int $Age = 0;
+			double $Weight = 0.0;
+			public Human(String _Name, int _Age, double _Weight )
+				{
+					$Name = _Name;
+					$Age = _Age;
+					$Weight = _Weight;
+				}
+		}
+	public static void main(String [] args)
+		{
+			ConstructorClass.Human Tom = new ConstructorClass().new Human("Tim",3,3);
+			System.out.println(Tom.$Age+"/n/n"+Tom.$Name+"\n\n"+Tom.$Weight);
+		}
+}

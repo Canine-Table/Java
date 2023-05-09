@@ -1,0 +1,20 @@
+package javaSandboxOneLevelOne;
+
+public class OverLoadedMethods {
+	String $Name = null;
+	String $Names = null;
+	OverLoadedMethods(String _Name)
+		{
+			this.$Name = _Name;
+		}
+	String Status(String _Status)
+		{
+			return $Name;
+		}
+	public static void main(String [] args)
+		{
+		OverLoadedMethods John = new OverLoadedMethods("John");
+		John.Status("CEO");
+		System.out.println(John);
+		}
+}

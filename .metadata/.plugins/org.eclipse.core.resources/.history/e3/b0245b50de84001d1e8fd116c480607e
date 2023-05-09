@@ -1,0 +1,23 @@
+package javaSandboxOneLevelOne;
+
+public class ToStringMethod {
+
+	public class Vehicles
+	{
+	 	void $Ford()
+			{
+				String _Make = null ;
+				String _Model = null;
+				String _Color = null;
+				int _Year = 0;
+				double _Cost = 0;
+				$Post(_Make,_Model,_Color,_Year,_Cost);
+			}
+		void $Post(String $Make, String $Model, String $Color, int $Year, double $Cost)
+			{
+				System.out.printf("%-10s%-10s%-10s%-10i%-10f",$Make,$Model,$Color,$Year,$Cost);
+			}
+	}
+	ToStringMethod.Vehicles $Ford = new ToStringMethod().new Vehicles();
+	$Ford.$Post("Ford","Mustang","Red",2023,43895.00);	
+}
