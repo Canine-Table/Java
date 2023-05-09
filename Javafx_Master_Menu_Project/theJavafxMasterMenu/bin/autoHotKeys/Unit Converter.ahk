@@ -1,2 +1,0 @@
-Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default --app-id=mgokmnnphjenldgjbgdkdpbbfpoeoojl --app-url=https://www.unitsconverters.com/en/Km/H-To-Yd/S/Utu-3388-3402 --app-launch-source=4
-	ExitApp

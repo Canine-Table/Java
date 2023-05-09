@@ -1,2 +1,0 @@
-Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default --app-id=hdojndddgbjokndbnehjmlldplabooap --app-url=https://docs.microsoft.com/en-us/users/caninetable-8133/certifications?section=activity --app-launch-source=4
-ExitApp

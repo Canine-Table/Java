@@ -1,2 +1,0 @@
-Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default --app-id=hbgnaindmlckpnjcfmbbblnopplkoofd --app-url=https://www.algonquincollege.com/welcomecentre/ --app-launch-source=4
-ExitApp

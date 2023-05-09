@@ -1,2 +1,0 @@
-Run "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default --app-id=delcikdhaadccnlbiiakgmfaaejfeina --app-url=https://www.eventbrite.ca/e/level-up-your-learning-preparing-for-spring-semester-tickets-322788227277 --app-l
-ExitApp
