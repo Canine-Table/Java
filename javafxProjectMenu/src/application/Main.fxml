@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TabPane prefHeight="600.0" prefWidth="795.0" rotateGraphic="true" stylesheets="@application.css" tabClosingPolicy="UNAVAILABLE" tabMinHeight="32.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+  <tabs>
+    <Tab fx:id="microsoftOffice" closable="false" style="-fx-background-color: #F5BD1F;" text=" Office 365 ">
+         <content>
+            <AnchorPane fx:id="microsoftOfficeAnchor" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #F5BD1F;">
+               <children>
+                  <Button fx:id="Microsoft_Word" layoutX="29.0" layoutY="19.0" mnemonicParsing="false" onAction="#word" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Microsoft_Teams" layoutX="183.0" layoutY="19.0" mnemonicParsing="false" onAction="#teams" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Microsoft_PowerPoint" layoutX="337.0" layoutY="19.0" mnemonicParsing="false" onAction="#powerPoint" onDragDetected="#powerPoint" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Microsoft_InfoPath" layoutX="491.0" layoutY="19.0" mnemonicParsing="false" onAction="#infoPath" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Microsoft_Access" layoutX="645.0" layoutY="19.0" mnemonicParsing="false" onAction="#access" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Microsoft_OneDrive" layoutX="29.0" layoutY="213.0" mnemonicParsing="false" onAction="#oneDrive" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Microsoft_Excel" layoutX="183.0" layoutY="213.0" mnemonicParsing="false" onAction="#excel" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Microsoft_PowerBI" layoutX="337.0" layoutY="213.0" mnemonicParsing="false" onAction="#powerBI" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Microsoft_OneNote" layoutX="491.0" layoutY="214.0" mnemonicParsing="false" onAction="#oneNote" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Microsoft_Sway" layoutX="645.0" layoutY="213.0" mnemonicParsing="false" onAction="#sway" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Microsoft_Publisher" layoutX="29.0" layoutY="407.0" mnemonicParsing="false" onAction="#publisher" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Microsoft_PowerApps" layoutX="183.0" layoutY="407.0" mnemonicParsing="false" onAction="#powerApps" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Microsoft_Outlook" layoutX="337.0" layoutY="407.0" mnemonicParsing="false" onAction="#outook" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Microsoft_Automate" layoutX="491.0" layoutY="407.0" mnemonicParsing="false" onAction="#powerAutomate" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Microsoft_Skype" layoutX="645.0" layoutY="407.0" mnemonicParsing="false" onAction="#skype" prefHeight="135.0" prefWidth="135.0" />
+               </children>
+            </AnchorPane>
+         </content></Tab>
+    <Tab fx:id="textEditors" closable="false" style="-fx-background-color: #98FB98;" text=" Text Editors ">
+         <content>
+            <AnchorPane fx:id="textEditorsAnchor" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #98FB98;">
+               <children>
+                  <Button fx:id="Editor_NotePad" layoutX="29.0" layoutY="19.0" mnemonicParsing="false" onAction="#notePad" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Editor_SciTE" layoutX="183.0" layoutY="19.0" mnemonicParsing="false" onAction="#sciTE" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Editor_NotePadPP" layoutX="337.0" layoutY="19.0" mnemonicParsing="false" onAction="#notePadPP" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Editor_CherryTree" layoutX="491.0" layoutY="19.0" mnemonicParsing="false" onAction="#cherryTree" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Editor_WordPad" layoutX="645.0" layoutY="19.0" mnemonicParsing="false" onAction="#wordPad" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Editor_AnkelPad" layoutX="29.0" layoutY="213.0" mnemonicParsing="false" onAction="#ankelPad" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Editor_NotePad2" layoutX="183.0" layoutY="213.0" mnemonicParsing="false" onAction="#notePad2" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Editor_HotKeyPad" layoutX="337.0" layoutY="213.0" mnemonicParsing="false" onAction="#hotKeyPad" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Editor_NotePad2Mod" layoutX="491.0" layoutY="213.0" mnemonicParsing="false" onAction="#notePad2Mod" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Editor_BlackNotePad" layoutX="645.0" layoutY="213.0" mnemonicParsing="false" onAction="#blackNotePad" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Editor_SublimeText" layoutX="29.0" layoutY="407.0" mnemonicParsing="false" onAction="#sublimeText" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Editor_StickyNotes" layoutX="183.0" layoutY="407.0" mnemonicParsing="false" onAction="#stickyNotes" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Editor_gVim" layoutX="337.0" layoutY="407.0" mnemonicParsing="false" onAction="#gVim" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Editor_Adventure" layoutX="491.0" layoutY="407.0" mnemonicParsing="false" onAction="#adventure" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Editor_Balabolka" layoutX="645.0" layoutY="407.0" mnemonicParsing="false" onAction="#balabolka" prefHeight="135.0" prefWidth="135.0" />
+               </children></AnchorPane>
+         </content></Tab>
+      <Tab fx:id="eclipseIDE" closable="false" style="-fx-background-color: #D2B48C;" text=" Eclipse ">
+         <content>
+            <AnchorPane fx:id="eclipseIDEAnchor" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D2B48C;">
+               <children>
+                  <Button fx:id="Eclipse_CandCPPButton" layoutX="29.0" layoutY="19.0" mnemonicParsing="false" onAction="#CandCPP" prefHeight="135.0" prefWidth="135.0" />
+                  <Button layoutX="183.0" layoutY="19.0" mnemonicParsing="false" onAction="#RCPandRAP" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Eclipse_EmbeddedCandCPPButton" layoutX="337.0" layoutY="19.0" mnemonicParsing="false" onAction="#EmbeddedCandCPP" prefHeight="135.0" prefWidth="135.0" />
+                  <Button layoutX="491.0" layoutY="19.0" mnemonicParsing="false" onAction="#JavaandDSL" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Eclipse_ScientificComputing" layoutX="645.0" layoutY="19.0" mnemonicParsing="false" onAction="#computing" prefHeight="135.0" prefWidth="135.0" />
+                  <Button layoutX="29.0" layoutY="213.0" mnemonicParsing="false" onAction="#java" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Eclipse_ModellingTools" layoutX="183.0" layoutY="213.0" mnemonicParsing="false" onAction="#modelingTools" prefHeight="135.0" prefWidth="135.0" />
+                  <Button layoutX="337.0" layoutY="213.0" mnemonicParsing="false" onAction="#JavaandtheWeb" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="Eclipse_Php" layoutX="491.0" layoutY="213.0" mnemonicParsing="false" onAction="#php" prefHeight="135.0" prefWidth="135.0" />
+                  <Button layoutX="645.0" layoutY="213.0" mnemonicParsing="false" onAction="#scout" prefHeight="135.0" prefWidth="135.0" />
+               </children></AnchorPane>
+         </content>
+      </Tab>
+      <Tab fx:id="jetBrains" closable="false" style="-fx-background-color: #FFB6C1;" text=" Jet Brains ">
+         <content>
+            <AnchorPane fx:id="jetBrainsAnchor" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFB6C1;">
+               <children>
+                  <Button fx:id="JetBrains_CLion" layoutX="29.0" layoutY="19.0" mnemonicParsing="false" onAction="#cLion" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="JetBrains_DotCover" layoutX="183.0" layoutY="19.0" mnemonicParsing="false" onAction="#dotCover" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="JetBrains_IntelijIdea" layoutX="337.0" layoutY="19.0" mnemonicParsing="false" onAction="#intelijIdea" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="JetBrains_DotMemory" layoutX="491.0" layoutY="19.0" mnemonicParsing="false" onAction="#dotMemory" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="JetBrains_Rider" layoutX="645.0" layoutY="19.0" mnemonicParsing="false" onAction="#rider" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="JetBrains_DotPeek" layoutX="29.0" layoutY="213.0" mnemonicParsing="false" onAction="#dotPeek" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="JetBrains_RubyMine" layoutX="183.0" layoutY="213.0" mnemonicParsing="false" onAction="#rubyMine" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="JetBrains_DataGrip" layoutX="337.0" layoutY="213.0" mnemonicParsing="false" onAction="#dataGrip" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="JetBrains_DotTrace" layoutX="491.0" layoutY="213.0" mnemonicParsing="false" onAction="#dotTrace" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="JetBrains_PhpStorm" layoutX="645.0" layoutY="213.0" mnemonicParsing="false" onAction="#phpStorm" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="JetBrains_DataSpell" layoutX="29.0" layoutY="407.0" mnemonicParsing="false" onAction="#dataSpell" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="JetBrains_PyCharm" layoutX="183.0" layoutY="407.0" mnemonicParsing="false" onAction="#pyCharm" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="JetBrains_GoLand" layoutX="337.0" layoutY="407.0" mnemonicParsing="false" onAction="#goLand" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="JetBrains_WebStorm" layoutX="491.0" layoutY="407.0" mnemonicParsing="false" onAction="#webStorm" prefHeight="135.0" prefWidth="135.0" />
+                  <Button fx:id="JetBrains_ToolBox" layoutX="645.0" layoutY="407.0" mnemonicParsing="false" onAction="#toolBox" prefHeight="135.0" prefWidth="135.0" />
+               </children></AnchorPane>
+         </content>
+      </Tab>
+      <Tab closable="false" style="-fx-background-color: #DDA0DD;" text=" Visual Studios ">
+         <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #DDA0DD;">
+               <children>
+                  <Button layoutX="29.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Cmd Promt" />
+                  <Button layoutX="183.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Node.js" />
+                  <Button layoutX="337.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Terminal" />
+                  <Button layoutX="491.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Blend" />
+                  <Button layoutX="645.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="PowerShell" />
+                  <Button layoutX="29.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Unity Hub" />
+                  <Button layoutX="183.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="PowerShell Core" />
+                  <Button layoutX="337.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Cocos" />
+                  <Button layoutX="491.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Visual Studios" />
+                  <Button layoutX="645.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Epic Game Launcher " />
+                  <Button layoutX="29.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Code" />
+                  <Button layoutX="183.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="IDLE" />
+                  <Button layoutX="337.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Python" />
+                  <Button layoutX="491.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Bourne Shell" />
+                  <Button layoutX="645.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="PowerShell ISE" />
+               </children></AnchorPane>
+         </content>
+      </Tab>
+      <Tab closable="false" style="-fx-background-color: #B0C4DE;" text=" Search Engines ">
+         <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #B0C4DE;">
+               <children>
+                  <Button layoutX="29.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Moz://a FireFox" />
+                  <Button layoutX="183.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Opera GX" />
+                  <Button layoutX="337.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Microsoft Edge" />
+                  <Button layoutX="491.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Maxthon" />
+                  <Button layoutX="645.0" layoutY="19.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Google Chrome" />
+                  <Button layoutX="29.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Tor" />
+                  <Button layoutX="183.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Internet Explorer" />
+                  <Button layoutX="337.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Avast Secure" />
+                  <Button layoutX="491.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Vivaldi" />
+                  <Button layoutX="645.0" layoutY="213.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Brave" />
+                  <Button layoutX="29.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Opera" />
+                  <Button layoutX="183.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Bing" />
+                  <Button layoutX="337.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Yandex" />
+                  <Button layoutX="491.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Duck Duck Go" />
+                  <Button layoutX="645.0" layoutY="407.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="Let me Google That" />
+               </children></AnchorPane>
+         </content>
+      </Tab>
+      <Tab closable="false" style="-fx-background-color: #00FFFF;" text=" Shortcuts ">
+         <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #00FFFF;">
+               <children>
+                  <ComboBox layoutX="244.0" layoutY="37.0" prefHeight="31.0" prefWidth="532.0" />
+                  <Label layoutX="14.0" maxHeight="92.0" minHeight="92.0" prefHeight="92.0" prefWidth="220.0" text="Favorites:">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <font>
+                        <Font name="Times New Roman Bold" size="48.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="77.0" maxHeight="92.0" minHeight="92.0" prefHeight="92.0" prefWidth="243.0" text="Algonquin:">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <font>
+                        <Font name="Times New Roman Bold" size="48.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="410.0" maxHeight="92.0" minHeight="92.0" prefHeight="92.0" prefWidth="208.0" text="Archives:">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <font>
+                        <Font name="Times New Roman Bold" size="48.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="328.0" maxHeight="92.0" minHeight="92.0" prefHeight="92.0" prefWidth="178.0" text="Editors:">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <font>
+                        <Font name="Times New Roman Bold" size="48.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="246.0" maxHeight="92.0" minHeight="92.0" prefHeight="92.0" prefWidth="277.0" text="Convertions:">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <font>
+                        <Font name="Times New Roman Bold" size="48.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="164.0" maxHeight="92.0" minHeight="92.0" prefHeight="92.0" prefWidth="186.0" text="Utilities:">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <font>
+                        <Font name="Times New Roman Bold" size="48.0" />
+                     </font>
+                  </Label>
+                  <ComboBox layoutX="267.0" layoutY="114.0" prefHeight="31.0" prefWidth="509.0" />
+                  <ComboBox layoutX="210.0" layoutY="200.0" prefHeight="31.0" prefWidth="565.0" />
+                  <ComboBox layoutX="302.0" layoutY="282.0" prefHeight="31.0" prefWidth="473.0" />
+                  <ComboBox layoutX="202.0" layoutY="365.0" prefHeight="31.0" prefWidth="573.0" />
+                  <ComboBox layoutX="232.0" layoutY="446.0" prefHeight="31.0" prefWidth="544.0" />
+                  <Button layoutX="24.0" layoutY="511.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="761.0" text="Enter" />
+               </children></AnchorPane>
+         </content>
+      </Tab>
+      <Tab closable="false" style="-fx-background-color: #87CEFA;" text=" Control Panel ">
+         <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #87CEFA;">
+               <children>
+                  <Button layoutX="14.0" layoutY="511.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="761.0" text="Enter" />
+                  <CheckBox layoutX="38.0" layoutY="19.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Character Animator">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="79.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Creative Cloud Express">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="139.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Creative Cloud">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="199.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Adobe Tutorials">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="259.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Color">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="319.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Aero">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="381.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Behance">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="441.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Experience League C">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="281.0" layoutY="19.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Font">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="281.0" layoutY="79.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Frame.io">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="281.0" layoutY="139.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Fresco">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="281.0" layoutY="199.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Media Encoder">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="281.0" layoutY="259.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Lightroom">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="281.0" layoutY="319.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Mixamilo">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="281.0" layoutY="381.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="PhotoShop Express">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="281.0" layoutY="441.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="PhotoShop">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="524.0" layoutY="19.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Portfolio">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="524.0" layoutY="79.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Premiere Rush">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="524.0" layoutY="139.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Stock">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="524.0" layoutY="199.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Substance 3D">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="524.0" layoutY="259.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Substance 3D C">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="524.0" layoutY="319.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Support Community">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="524.0" layoutY="381.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="UPX Developer Tools">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="524.0" layoutY="441.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Bridge">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+               </children></AnchorPane>
+         </content>
+      </Tab>
+      <Tab closable="false" style="-fx-background-color: #FFA07A;" text=" Management ">
+         <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFA07A;">
+               <children>
+                  <CheckBox layoutX="38.0" layoutY="19.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Authentication Manager">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="281.0" layoutY="19.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Dev Mode Runas">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="524.0" layoutY="19.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Trusted Platform Module">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="79.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Certificates This PC">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="281.0" layoutY="79.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="DFS Management">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="524.0" layoutY="79.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Printer Management">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="139.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Certificates This User">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="281.0" layoutY="139.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Event Viewer">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="524.0" layoutY="139.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Performance Monitor">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="199.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Component Services">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="281.0" layoutY="199.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Failover Cluster Manager">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="524.0" layoutY="199.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Resultant Set of Policy">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="259.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Computer Management">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="281.0" layoutY="259.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Server Resource Manager">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="524.0" layoutY="259.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Security Policy">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="319.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Disk Management">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="281.0" layoutY="319.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Groups Policey Editor">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="524.0" layoutY="319.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Services">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="379.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Device Manager">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="281.0" layoutY="379.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Hyper-V Manager">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="524.0" layoutY="379.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Shared Folders">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="439.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Defender Advanced">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="281.0" layoutY="440.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Local Users and Groups">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="524.0" layoutY="442.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="243.0" text="Task Scheduler">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <Button layoutX="24.0" layoutY="511.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="761.0" text="Enter" />
+               </children></AnchorPane>
+         </content>
+      </Tab>
+      <Tab closable="false" style="-fx-background-color: #FFFACD;" text=" Adobe ">
+         <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFACD;">
+               <children>
+                  <CheckBox layoutX="38.0" layoutY="19.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Contol Panel">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="410.0" layoutY="19.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Mail Setup">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="79.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Display Setting">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="410.0" layoutY="79.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Mobility Settings">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="139.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Date and Time">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="410.0" layoutY="139.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Programs and Features">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="199.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Flash Player Settings">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="410.0" layoutY="199.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Region">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="259.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Game Controllers">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="410.0" layoutY="259.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="System Properties">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="319.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Internet Properties">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="410.0" layoutY="319.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Speech Properties">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="379.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Local Information">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="410.0" layoutY="379.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Secutiry and Maintenance">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="38.0" layoutY="439.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Mouse Properties">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <CheckBox layoutX="410.0" layoutY="439.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="372.0" text="Windows Features">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </CheckBox>
+                  <Button layoutX="24.0" layoutY="511.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="761.0" text="Enter" />
+               </children></AnchorPane>
+         </content>
+      </Tab>
+  </tabs>
+</TabPane>

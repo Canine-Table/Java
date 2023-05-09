@@ -1,0 +1,90 @@
+
+#myScrollPane
+	{
+		-fx-min-height: 10px
+	}
+
+#myScrollPane .button
+	{
+		-fx-border-color: "#000000";
+		-fx-border-width: 1px;
+		-fx-cursor: Hand;
+		-fx-background-position: center;
+		-fx-background-repeat: no-repeat;
+	}
+	
+ 	#office365
+		{
+			-fx-background-image: url("../tabIcons/Office365.png");
+			-fx-background-color: #F5BD1F;
+		}
+		
+	#textEditors
+		{
+			-fx-background-image: url("../tabIcons/Text_Editors.png");
+			-fx-background-color: #98FB98;
+		}
+		
+	#searchEngines
+		{
+			-fx-background-image: url("../tabIcons/Search_Engines.png");
+			-fx-background-color: #B0C4DE;			
+		}
+				
+	#eclipse
+		{
+			-fx-background-image: url("../tabIcons/Eclipse.png");
+			-fx-background-color: #D2B48C;
+		}
+		
+	#jetBrains
+		{
+			-fx-background-image: url("../tabIcons/JetBrains.png");
+			-fx-background-color: #FFB6C1;
+		}
+		
+	#visualStudios
+		{
+			-fx-background-image: url("../tabIcons/Visual_Studios.png");
+			-fx-background-color: #DDA0DD;
+		}
+		
+	#controlPanel
+		{
+			-fx-background-image: url("../tabIcons/Control_Panel.png");
+			-fx-background-color: #87CEFA;
+		}
+	
+	#managementConsole
+		{
+			-fx-background-image: url("../tabIcons/Management_Console.png");
+			-fx-background-color: #FFA07A;
+		}
+
+	#shortcuts
+		{
+			-fx-background-image: url("../tabIcons/Shortcuts.png");
+			-fx-background-color: #00FFFF;
+		}
+				
+	#adobe
+		{
+			-fx-background-image: url("../tabIcons/Adobe.png");
+			-fx-background-color: #FFFACD;
+		}
+	
+	#settings
+		{
+			-fx-background-image: url("../tabIcons/Settings.png");
+			-fx-background-color: #DDDDDD;
+		}
+		
+		#flowZero
+			{
+						-fx-background-color: #0000FF;	
+			}
+		
+		#flowOne
+			{
+						-fx-background-color: #FF0000;	
+			}

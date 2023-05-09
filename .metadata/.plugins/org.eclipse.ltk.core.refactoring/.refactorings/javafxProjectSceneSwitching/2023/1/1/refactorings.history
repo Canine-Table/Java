@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;javafxProjectSceneSwitching/src/application/Main.fxml&apos; to &apos;SceneTwo.fxml&apos;" description="Rename resource &apos;Main.fxml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/application/Main.fxml" name="SceneTwo.fxml" stamp="1673131214077" updateReferences="true"/>
+</session>

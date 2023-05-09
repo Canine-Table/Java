@@ -1,0 +1,31 @@
+.root
+	{
+		-fx-background-color: "#0000FF";
+		-fx-font-family: "Lucida Sans Typewriter";
+		-fx-font-weight: bold;
+
+	}
+.label
+
+	{
+		-fx-font-weight: bold;
+		-fx-font-size: 24.0px;
+		-fx-alignment: center;
+		-fx-text-fill: "#87CEFA";
+		-fx-background-color: "#000080";
+		-fx-font-family: "Lucida Sans Typewriter";
+	}
+#myLabel
+	{
+	-fx-font-size: 11.0px;
+	}
+.button
+	{
+		-fx-text-fill: "#87CEFA";
+		-fx-background-color: "#000080";
+		-fx-border-color: "#00BFFF";
+		-fx-border-style: solid;
+		-fx-border-width: 2.0px;
+		-fx-border-radius: 10.0px;
+		-fx-background-radius: 15.0px;
+	}
